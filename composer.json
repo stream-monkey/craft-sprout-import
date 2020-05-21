@@ -28,13 +28,19 @@
         "craftcms/cms": "^3.1.0",
         "fzaninotto/faker": "^1.8.0",
         "barrelstrength/sprout-base": "^5.0.0",
-        "barrelstrength/sprout-base-import": "^1.0.6"
+        "barrelstrength/sprout-base-import": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "barrelstrength\\sproutimport\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/stream-monkey/craft-sprout-base-import.git"
+        }
+    ],
     "extra": {
         "name": "Sprout Import",
         "handle": "sprout-import",
